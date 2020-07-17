@@ -2086,7 +2086,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: reset stats
+  m_text: reset game
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 51739dbafc6b9dc4eb3a6fe1a0c3bba2, type: 2}
   m_sharedMaterial: {fileID: -4198851265368637741, guid: 51739dbafc6b9dc4eb3a6fe1a0c3bba2,
@@ -2156,7 +2156,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 342969886}
-    characterCount: 11
+    characterCount: 10
     spriteCount: 0
     spaceCount: 1
     wordCount: 2
@@ -11458,7 +11458,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: Are you sure you want to reset all data? All unlockables will be locked
-    again
+    again!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 51739dbafc6b9dc4eb3a6fe1a0c3bba2, type: 2}
   m_sharedMaterial: {fileID: -4198851265368637741, guid: 51739dbafc6b9dc4eb3a6fe1a0c3bba2,
