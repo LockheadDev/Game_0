@@ -2271,6 +2271,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 380750404}
+  - component: {fileID: 380750405}
   m_Layer: 5
   m_Name: Help Panel
   m_TagString: Untagged
@@ -2300,6 +2301,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 800, y: 450}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &380750405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380750403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f078ef97b26459e4f8fcb32fe2e7487f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &395240377
 GameObject:
   m_ObjectHideFlags: 0
@@ -3330,6 +3343,17 @@ MonoBehaviour:
       - m_Target: {fileID: 1242377761}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1242377763}
+        m_MethodName: Quit
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -15684,6 +15708,7 @@ GameObject:
   - component: {fileID: 1946302155}
   - component: {fileID: 1946302154}
   - component: {fileID: 1946302153}
+  - component: {fileID: 1946302157}
   m_Layer: 5
   m_Name: MenuCanvas
   m_TagString: Untagged
@@ -15776,6 +15801,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1946302157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946302152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6579b0413eb6548b1dd53b342f3287, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hidelist:
+  - {fileID: 1242377761}
+  - {fileID: 680981552}
+  showlist:
+  - {fileID: 380750403}
 --- !u!1 &1948579770
 GameObject:
   m_ObjectHideFlags: 0
