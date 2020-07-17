@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7837817981516895760}
   - component: {fileID: 1988195542060974566}
   - component: {fileID: 3552539789830675182}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: TripleBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}

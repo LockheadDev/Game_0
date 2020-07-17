@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6542000458237345717}
   - component: {fileID: 3641774878806492184}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Trail thruster (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,7 +147,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1128123415819403364}
   - component: {fileID: 7222416335709746596}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Trail thruster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -288,7 +288,7 @@ GameObject:
   - component: {fileID: 4322733256918406669}
   - component: {fileID: 4322733256918406670}
   - component: {fileID: -2459820288913259167}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}

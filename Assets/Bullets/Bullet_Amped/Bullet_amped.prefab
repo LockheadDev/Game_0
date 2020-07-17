@@ -114,6 +114,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bullet_amped
       objectReference: {fileID: 0}
+    - target: {fileID: 489773113082627262, guid: bcde86dea0cbbf94dafad7d059fce786,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 1612087801408777262, guid: bcde86dea0cbbf94dafad7d059fce786,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
