@@ -51,9 +51,15 @@ public class OptionsMenu : MonoBehaviour
       }));
    }
 
-   void Start()
+    public void Refresh()
    {
       Awake();
+      Start();
+   }
+
+   void Start()
+   {
+      
       
       volMaster.value = PlayerPrefs.GetFloat("MasterVolume",1f);
       volFX.value = PlayerPrefs.GetFloat("FXVolume",1f);

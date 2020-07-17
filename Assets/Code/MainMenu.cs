@@ -16,14 +16,9 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 
-    public void Options()
+    public void RefreshOptions()
     {
-        
+        FindObjectOfType<OptionsMenu>().Refresh();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
