@@ -8,6 +8,6 @@ public class FeedbackButton : MonoBehaviour
     public void OpenURL()
     {
         Application.OpenURL("https://forms.gle/SvezdxnR6h7RUXTa6");
-        Debug.Log("Opening feedback link...");
+        //Debug.Log("Opening feedback link...");
     }
 }
