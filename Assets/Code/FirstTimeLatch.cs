@@ -10,7 +10,7 @@ public class FirstTimeLatch : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        firstRun = PlayerPrefs.GetInt("firstRun");
+        firstRun = PlayerPrefs.GetInt("firstRun",0);
         if(firstRun==0)
         {
             firstRun=1;

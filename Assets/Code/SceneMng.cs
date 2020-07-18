@@ -35,9 +35,20 @@ public class SceneMng : MonoBehaviour
             GameOvermess.gamOv = true;
             SpawningEnemies.onOff = false;
             SpawningPowerUps.onOff = false;
-            if (Input.GetKey(KeyCode.R))
+            if (Input.GetKey(KeyCode.R) || Input.GetKey(KeyCode.Return))
             {
                 FindObjectOfType<SceneTransition>().Reload();
+            }
+        }
+
+        if (Time.timeScale == 0.0f)
+        {
+            Debug.Log("eNTERING...");
+            if (Input.GetKey(KeyCode.R) || Input.GetKey(KeyCode.Return))
+            {
+                Time.timeScale = 1;
+                FindObjectOfType<SceneTransition>().Reload();
+
             }
         }
     }
