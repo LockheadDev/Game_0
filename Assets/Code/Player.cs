@@ -6,8 +6,8 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public int health = 3;
-    public int KillCount=0;
     public int armor = 2;
+    
 
     public GameObject deathAnimation;
     public float damageTimeAnimation =0.2f;
