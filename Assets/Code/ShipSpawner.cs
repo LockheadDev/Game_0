@@ -12,16 +12,7 @@ public class ShipSpawner : MonoBehaviour
         shipID = PlayerPrefs.GetInt("ship",0);
         Debug.Log(shipID);
         Vector3 pos = new Vector3(0, 0, 0);
-        switch(shipID)
-        {
-            case 0:
-            Instantiate(ships[0],pos,Quaternion.identity);
-            break;
-            case 1:
-            Instantiate(ships[1],pos,Quaternion.identity);
-            break;
-
-        }
+         Instantiate(ships[shipID],pos,Quaternion.identity);
     }
 
     

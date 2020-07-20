@@ -12393,6 +12393,9 @@ MonoBehaviour:
   ships:
   - {fileID: 3130651020031690544, guid: 868d6f3e3f39571419ffb961aa014e29, type: 3}
   - {fileID: 681829017392911748, guid: 61cc6b07ebf9d4747ae50e53472ba3cf, type: 3}
+  - {fileID: 9217866190015311329, guid: 522b270bd295b1a45827c9265b11dd48, type: 3}
+  - {fileID: 844735239330014705, guid: 9903035251ac4e84190e38b5142a0311, type: 3}
+  - {fileID: 3471527636334547042, guid: 7ef0ee95538502845a916d02e5b97c84, type: 3}
 --- !u!1 &1928353396
 GameObject:
   m_ObjectHideFlags: 0

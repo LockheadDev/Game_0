@@ -14492,7 +14492,8 @@ MonoBehaviour:
     type: 3}
   bulletPrefabPower: {fileID: 3514681625983165375, guid: a9161914f34b87449ab266b266ab810c,
     type: 3}
-  bulletPrefabFast: {fileID: 0}
+  bulletPrefabFast: {fileID: 8959571367005388416, guid: 000b7ac09cd8dbe439cdfaf9ed7fb533,
+    type: 3}
   shoottype: normal
   fireRate: 5
 --- !u!114 &681829017392911805
