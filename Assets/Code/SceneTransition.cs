@@ -22,6 +22,7 @@ public class SceneTransition : MonoBehaviour
     public void LoadNextLevel()
     {
         StartCoroutine (LoadLevel(SceneManager.GetActiveScene().buildIndex+1));
+        
     }
 
     IEnumerator LoadLevel(int LevelIndex)
@@ -29,5 +30,6 @@ public class SceneTransition : MonoBehaviour
         transition.SetTrigger("Start");
         yield return new WaitForSeconds(transitionTime);
         SceneManager.LoadScene(LevelIndex);
+        FindObjectOfType<SoundProgrammer>().setFlag(LevelIndex);
     }
 }

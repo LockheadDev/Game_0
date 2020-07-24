@@ -18,6 +18,7 @@ public class GameOvermess : MonoBehaviour
 
             GameOvermessage.SetActive(true);
             GUIInGame.SetActive(false);
+            FindObjectOfType<SoundMng>().Stop("GameTheme");
         }
         else
         {

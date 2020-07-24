@@ -66,7 +66,7 @@ public class OptionsMenu : MonoBehaviour
       volMusic.value = PlayerPrefs.GetFloat("MusicVolume",1f);
       AudioMix.SetFloat("master", PlayerPrefs.GetFloat("MasterVolume"));
       AudioMix.SetFloat("FX", PlayerPrefs.GetFloat("FXVolume"));
-      AudioMix.SetFloat("Music", PlayerPrefs.GetFloat("MusicVolume"));
+      AudioMix.SetFloat("music", PlayerPrefs.GetFloat("MusicVolume"));
 
       qualityDropdown.value = PlayerPrefs.GetInt(prefName,3);
 
@@ -101,7 +101,7 @@ public class OptionsMenu : MonoBehaviour
 
    public void setVolumeMusic(float vol)
    {
-      AudioMix.SetFloat("Music",vol);
+      AudioMix.SetFloat("music",vol);
       PlayerPrefs.SetFloat("MusicVolume",vol);
    }
    

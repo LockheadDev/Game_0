@@ -57,4 +57,15 @@ public class SoundMng : MonoBehaviour
         s.source.Play();
 
     }
+    public void Stop(string name)
+    {
+        Sound s = Array.Find(sounds,Sound=>Sound.name == name);
+        if(s == null)
+        {
+            Debug.Log("Sound: " + name + "not Found");
+            return;
+        }
+        s.source.Stop();
+
+    }
 }

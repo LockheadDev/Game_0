@@ -10554,7 +10554,7 @@ MonoBehaviour:
   locked: {fileID: 21300000, guid: e0d54460b7235d548aaf36beb24e7c42, type: 3}
   lck: {fileID: 1534396250}
   infoUnlock: {fileID: 2117021384}
-  unlocks: 00000000e8030000881300001027000050c30000
+  unlocks: 0000000064000000640000006400000064000000
 --- !u!114 &869582726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14662,6 +14662,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1402371275}
   - component: {fileID: 1402371276}
+  - component: {fileID: 1402371277}
   m_Layer: 0
   m_Name: SoundMng
   m_TagString: Untagged
@@ -14768,14 +14769,33 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
-  - name: Theme
-    clip: {fileID: 0}
+  - name: MainTheme
+    clip: {fileID: 8300000, guid: b7e470c4ae80057469f128052f59b68d, type: 3}
+    output: {fileID: 24300002, guid: 85f076843eee15446857d610d3c0d8ab, type: 2}
+    vol: 0.2
+    pitch: 1.05
+    loop: 1
+    source: {fileID: 0}
+  - name: GameTheme
+    clip: {fileID: 8300000, guid: ab8b5466331e0b44480ece79e5319c69, type: 3}
     output: {fileID: -6759189995486758912, guid: 85f076843eee15446857d610d3c0d8ab,
       type: 2}
-    vol: 0.45
-    pitch: 0.7
-    loop: 0
+    vol: 0.2
+    pitch: 1
+    loop: 1
     source: {fileID: 0}
+--- !u!114 &1402371277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402371274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8fddd16cca2ef24a870290b54a89865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1430538290
 GameObject:
   m_ObjectHideFlags: 0
