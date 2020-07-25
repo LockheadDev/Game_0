@@ -14771,7 +14771,8 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: MainTheme
     clip: {fileID: 8300000, guid: b7e470c4ae80057469f128052f59b68d, type: 3}
-    output: {fileID: 24300002, guid: 85f076843eee15446857d610d3c0d8ab, type: 2}
+    output: {fileID: -6759189995486758912, guid: 85f076843eee15446857d610d3c0d8ab,
+      type: 2}
     vol: 0.2
     pitch: 1.05
     loop: 1
@@ -18062,8 +18063,8 @@ MonoBehaviour:
   m_FillRect: {fileID: 1515078994}
   m_HandleRect: {fileID: 179067407}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: -80
+  m_MaxValue: 0
   m_WholeNumbers: 0
   m_Value: 1
   m_OnValueChanged:
