@@ -30,11 +30,12 @@ void Update()
         if(plyr.getHealth() < 3 )
         {
         GetComponent<Collider2D>().enabled = false;
-        GetComponent<SpriteRenderer>().enabled = false;
+        //GetComponent<SpriteRenderer>().enabled = false;
         StartCoroutine(effectSprite(plyrsr));
         FindObjectOfType<SoundMng>().PlaySound("PlayerArmor");
         plyr.Heal(1);
         Instantiate(pickupEffect,transform.position,transform.rotation);
+        speed =0f;
         }
        
    }

@@ -44,6 +44,7 @@ public class Powerupbulletamped : MonoBehaviour
        StartCoroutine(effectSprite(plyrsr));
        Instantiate(pickupEffect,transform.position,transform.rotation);
        FindObjectOfType<SoundMng>().PlaySound("PlayerPowerUp");
+       speed=0f;
 
        yield return Apply();
 
@@ -69,9 +70,7 @@ public class Powerupbulletamped : MonoBehaviour
         }
         else if(plyr.isPoweredB)
         {
-            Debug.Log("waiting");
             yield return new WaitUntil(()=>plyr.isPoweredB==false);
-            Debug.Log("aplying");
             yield return Apply();
         }
        }

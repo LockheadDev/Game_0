@@ -36,6 +36,7 @@ public class Powerupbulletfast : MonoBehaviour
         SpriteRenderer plyrsr= player.GetComponent<SpriteRenderer>(); 
         GetComponent<Collider2D>().enabled = false;
         GetComponent<SpriteRenderer>().enabled = false;
+        speed =0f;
         baseFireRate = Weapon.baseFireRate;
         
 
@@ -68,9 +69,7 @@ public class Powerupbulletfast : MonoBehaviour
         }
         else if(plyr.isPoweredB)
         {
-            Debug.Log("waiting");
             yield return new WaitUntil(()=>plyr.isPoweredB==false);
-            Debug.Log("aplying");
             yield return Apply();
         }
        }

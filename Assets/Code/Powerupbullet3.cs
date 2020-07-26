@@ -40,6 +40,7 @@ public class Powerupbullet3 : MonoBehaviour
        StartCoroutine(effectSprite(plyrsr));
        Instantiate(pickupEffect,transform.position,transform.rotation);
        FindObjectOfType<SoundMng>().PlaySound("PlayerArmor");
+       speed =0f;
 
        yield return Apply();
 

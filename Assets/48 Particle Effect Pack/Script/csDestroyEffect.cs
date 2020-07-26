@@ -3,10 +3,18 @@ using System.Collections;
 
 public class csDestroyEffect : MonoBehaviour {
 	
-	void Update () {
-        if (Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.C))
-        {
-            Destroy(gameObject);
-        }
+    public float time = 5.0F;
+    
+    // Start is called before the first frame update
+    void Start()
+    {
+        StartCoroutine(Disappear());
+    }
+
+    IEnumerator Disappear()
+    {
+        yield return new WaitForSecondsRealtime(time);
+        Destroy(gameObject);
+        
     }
 }

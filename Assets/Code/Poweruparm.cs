@@ -36,6 +36,7 @@ void Update()
         FindObjectOfType<SoundMng>().PlaySound("PlayerArmor");
         plyr.GiveArmor(1);
         Instantiate(pickupEffect,transform.position,transform.rotation);
+        speed =0f;
         }
        
    }
