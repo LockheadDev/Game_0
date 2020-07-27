@@ -37,7 +37,6 @@ public class SoundProgrammer : MonoBehaviour
     
     public void MusicChange()
     {
-        Debug.Log(flag);
         switch(flag)
         {
             case 0:

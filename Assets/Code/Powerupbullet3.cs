@@ -64,9 +64,8 @@ public class Powerupbullet3 : MonoBehaviour
         }
         else if(plyr.isPoweredA)
         {
-            Debug.Log("waiting");
+           
             yield return new WaitUntil(()=>plyr.isPoweredA==false);
-            Debug.Log("aplying");
             yield return Apply();
         }
        }

@@ -10945,7 +10945,7 @@ MonoBehaviour:
   - {fileID: 5844909511916821312, guid: bc3b6b3e0162a1842bc37f004b20a6b9, type: 3}
   - {fileID: 7003588376350430561, guid: c4519ad7f3cea6444b849cbe76fb9b11, type: 3}
   - {fileID: 1148826256347272973, guid: 7530e7cae1320cd49b161d718537780f, type: 3}
-  spawnRate: 0.25
+  spawnRate: 0.2
 --- !u!1 &1621072472
 GameObject:
   m_ObjectHideFlags: 0
@@ -11120,7 +11120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 4322733256918406669, guid: 9549c3c7dd6e7ed4fb8f351dc8e9ea2c, type: 3}
-  spawnRate: 8
+  spawnRate: 8.8
 --- !u!1 &1630666808
 GameObject:
   m_ObjectHideFlags: 0

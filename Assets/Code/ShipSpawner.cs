@@ -10,7 +10,6 @@ public class ShipSpawner : MonoBehaviour
     void Start()
     {
         shipID = PlayerPrefs.GetInt("ship",0);
-        Debug.Log(shipID);
         Vector3 pos = new Vector3(0, 0, 0);
          Instantiate(ships[shipID],pos,Quaternion.identity);
     }
