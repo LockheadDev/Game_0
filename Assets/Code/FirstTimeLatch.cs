@@ -5,8 +5,8 @@ using UnityEngine;
 public class FirstTimeLatch : MonoBehaviour
 {
     public GameObject[] hidelist;
-     public GameObject[] showlist;
-    int firstRun =0;
+    public GameObject[] showlist;
+    private int firstRun =0;
     // Start is called before the first frame update
     void Start()
     {

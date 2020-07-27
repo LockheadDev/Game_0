@@ -49,17 +49,18 @@ public class OptionsMenu : MonoBehaviour
          PlayerPrefs.SetInt(prefName,qualityDropdown.value);
          PlayerPrefs.Save();
       }));
+      Start();
    }
 
     public void Refresh()
    {
       Awake();
       Start();
+
    }
 
    void Start()
    {
-      
       
       volMaster.value = PlayerPrefs.GetFloat("MasterVolume",1f);
       volFX.value = PlayerPrefs.GetFloat("FXVolume",1f);
@@ -96,6 +97,7 @@ public class OptionsMenu : MonoBehaviour
    {
       AudioMix.SetFloat("FX",vol);
       PlayerPrefs.SetFloat("FXVolume",vol);
+      PlayerPrefs.Save();
    }
 
 
@@ -103,6 +105,7 @@ public class OptionsMenu : MonoBehaviour
    {
       AudioMix.SetFloat("music",vol);
       PlayerPrefs.SetFloat("MusicVolume",vol);
+      PlayerPrefs.Save();
    }
    
 
@@ -110,12 +113,14 @@ public class OptionsMenu : MonoBehaviour
    {
       AudioMix.SetFloat("master",vol);
       PlayerPrefs.SetFloat("MasterVolume",vol);
+      PlayerPrefs.Save();
    }
 
 
    public void setQuality(int qualityIndex)
    {
       QualitySettings.SetQualityLevel(qualityIndex);
+      PlayerPrefs.Save();
    }
 
 
@@ -125,12 +130,14 @@ public class OptionsMenu : MonoBehaviour
       if(isFullScreen)
       {
          PlayerPrefs.SetInt("fstogglestate",1);
+         PlayerPrefs.Save();
          isFS =true;
       }
       else
       {
 
          PlayerPrefs.SetInt("fstogglestate",0);
+         PlayerPrefs.Save();
       }
       
    }
@@ -140,5 +147,6 @@ public class OptionsMenu : MonoBehaviour
    {
       Resolution resolution = resolutions[resolutionIndex];
       Screen.SetResolution(resolution.width,resolution.height,Screen.fullScreen);
+      PlayerPrefs.Save();
    }
 }

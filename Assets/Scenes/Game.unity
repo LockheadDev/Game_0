@@ -324,7 +324,7 @@ Transform:
   - {fileID: 1225283405}
   - {fileID: 714475790}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &68801886
 GameObject:
@@ -420,7 +420,7 @@ RectTransform:
   - {fileID: 1642076512}
   - {fileID: 1564404399}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -719,6 +719,151 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &213680086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 213680089}
+  - component: {fileID: 213680088}
+  - component: {fileID: 213680087}
+  m_Layer: 0
+  m_Name: SoundMng
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &213680087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213680086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8fddd16cca2ef24a870290b54a89865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &213680088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213680086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c95213483c63fbb43ae0fc1bf59d7bb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PlayerHeal
+    clip: {fileID: 8300000, guid: 900a12512943a08498b4cb1f216c6823, type: 3}
+    output: {fileID: -1335633826290451597, guid: 85f076843eee15446857d610d3c0d8ab,
+      type: 2}
+    vol: 0.6
+    pitch: 0.97
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerArmor
+    clip: {fileID: 8300000, guid: 38ac1184e9c9b7c4bb80e357c5f5d05e, type: 3}
+    output: {fileID: -1335633826290451597, guid: 85f076843eee15446857d610d3c0d8ab,
+      type: 2}
+    vol: 0.6
+    pitch: 1.24
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerPowerUp
+    clip: {fileID: 8300000, guid: 34a791cb9d359c24e99189f0390bef99, type: 3}
+    output: {fileID: -1335633826290451597, guid: 85f076843eee15446857d610d3c0d8ab,
+      type: 2}
+    vol: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerDamage
+    clip: {fileID: 8300000, guid: b553be84156157b41b28d32be579f500, type: 3}
+    output: {fileID: -1335633826290451597, guid: 85f076843eee15446857d610d3c0d8ab,
+      type: 2}
+    vol: 0.6
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: EnemyDamage
+    clip: {fileID: 8300000, guid: bf53de14530f44644b8d92552987f909, type: 3}
+    output: {fileID: -1335633826290451597, guid: 85f076843eee15446857d610d3c0d8ab,
+      type: 2}
+    vol: 0.25
+    pitch: 0.7
+    loop: 0
+    source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 0}
+    output: {fileID: -6759189995486758912, guid: 85f076843eee15446857d610d3c0d8ab,
+      type: 2}
+    vol: 0.45
+    pitch: 0.7
+    loop: 0
+    source: {fileID: 0}
+  - name: Shootbasic
+    clip: {fileID: 8300000, guid: 8e3bc127b1d051d499e9265e920d262e, type: 3}
+    output: {fileID: -1335633826290451597, guid: 85f076843eee15446857d610d3c0d8ab,
+      type: 2}
+    vol: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Shootamped
+    clip: {fileID: 8300000, guid: 12a7b8612b27f0943afc2cc325895ea9, type: 3}
+    output: {fileID: -1335633826290451597, guid: 85f076843eee15446857d610d3c0d8ab,
+      type: 2}
+    vol: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Shoottriple
+    clip: {fileID: 8300000, guid: f2ecebf4d272eb944a6dbf1300941244, type: 3}
+    output: {fileID: -1335633826290451597, guid: 85f076843eee15446857d610d3c0d8ab,
+      type: 2}
+    vol: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MainTheme
+    clip: {fileID: 8300000, guid: b7e470c4ae80057469f128052f59b68d, type: 3}
+    output: {fileID: -6759189995486758912, guid: 85f076843eee15446857d610d3c0d8ab,
+      type: 2}
+    vol: 0.2
+    pitch: 1.05
+    loop: 1
+    source: {fileID: 0}
+  - name: GameTheme
+    clip: {fileID: 8300000, guid: ab8b5466331e0b44480ece79e5319c69, type: 3}
+    output: {fileID: -6759189995486758912, guid: 85f076843eee15446857d610d3c0d8ab,
+      type: 2}
+    vol: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+--- !u!4 &213680089
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213680086}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 898.64874, y: 420.949, z: -1163.181}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &243202454
 GameObject:
   m_ObjectHideFlags: 0
@@ -8939,7 +9084,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1107306166
 GameObject:
@@ -10138,7 +10283,7 @@ Transform:
   m_LocalScale: {x: 4.9758296, y: 4.1846986, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1373287479
 Animator:
@@ -10800,7 +10945,7 @@ MonoBehaviour:
   - {fileID: 5844909511916821312, guid: bc3b6b3e0162a1842bc37f004b20a6b9, type: 3}
   - {fileID: 7003588376350430561, guid: c4519ad7f3cea6444b849cbe76fb9b11, type: 3}
   - {fileID: 1148826256347272973, guid: 7530e7cae1320cd49b161d718537780f, type: 3}
-  spawnRate: 0.5
+  spawnRate: 0.25
 --- !u!1 &1621072472
 GameObject:
   m_ObjectHideFlags: 0
@@ -10947,7 +11092,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1630172118
 Transform:
   m_ObjectHideFlags: 0
@@ -10975,7 +11120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 4322733256918406669, guid: 9549c3c7dd6e7ed4fb8f351dc8e9ea2c, type: 3}
-  spawnRate: 9
+  spawnRate: 8
 --- !u!1 &1630666808
 GameObject:
   m_ObjectHideFlags: 0
@@ -12400,7 +12545,7 @@ Transform:
   - {fileID: 1606950347}
   - {fileID: 1898410265}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1950120549
 GameObject:
@@ -13056,7 +13201,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2056719050
 GameObject:
