@@ -14273,11 +14273,11 @@ GameObject:
   - component: {fileID: 9217866190015311331}
   - component: {fileID: 9217866190015311330}
   - component: {fileID: 9217866190015311333}
-  - component: {fileID: 9217866190015311332}
   - component: {fileID: 9217866190015311334}
   - component: {fileID: 9217866190015311335}
   - component: {fileID: 9217866190015311320}
   - component: {fileID: 9217866190015311321}
+  - component: {fileID: -8505245775822967004}
   m_Layer: 0
   m_Name: ShipPink
   m_TagString: Player
@@ -14371,32 +14371,6 @@ Rigidbody2D:
   m_SleepingMode: 0
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!61 &9217866190015311332
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9217866190015311329}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.015238345, y: 0.0021768808}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.12, y: 0.64}
-    newSize: {x: 1.12, y: 0.64}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.8563231, y: 0.43469214}
-  m_EdgeRadius: 0
 --- !u!114 &9217866190015311334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14465,6 +14439,37 @@ MonoBehaviour:
   isPoweredB: 0
   isPoweredA: 0
   wp: {fileID: 0}
+--- !u!60 &-8505245775822967004
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9217866190015311329}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.12, y: 0.64}
+    newSize: {x: 1.12, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1604859, y: -0.13013783}
+      - {x: 0.46614486, y: -0.12727529}
+      - {x: 0.016395263, y: 0.12442082}
+      - {x: -0.47691023, y: 0.23835333}
+      - {x: -0.29619297, y: 0.07750629}
+      - {x: -0.29803988, y: -0.22205374}
 --- !u!1 &9217866191390921094
 GameObject:
   m_ObjectHideFlags: 0

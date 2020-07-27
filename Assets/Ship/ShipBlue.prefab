@@ -14342,6 +14342,7 @@ GameObject:
   - component: {fileID: 681829017392911746}
   - component: {fileID: 681829017392911805}
   - component: {fileID: 681829017392911804}
+  - component: {fileID: -7285949636876118158}
   m_Layer: 0
   m_Name: ShipBlue
   m_TagString: Player
@@ -14442,7 +14443,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 681829017392911748}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -14529,3 +14530,34 @@ MonoBehaviour:
   isPoweredB: 0
   isPoweredA: 0
   wp: {fileID: 0}
+--- !u!60 &-7285949636876118158
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681829017392911748}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.12, y: 0.64}
+    newSize: {x: 1.12, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1604859, y: -0.13013783}
+      - {x: 0.46614486, y: -0.12727529}
+      - {x: 0.016395263, y: 0.12442082}
+      - {x: -0.47691023, y: 0.23835333}
+      - {x: -0.29619297, y: 0.07750629}
+      - {x: -0.29803988, y: -0.22205374}
