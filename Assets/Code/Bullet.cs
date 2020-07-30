@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public float speed = 5f;
+    public float speed = 50f;
     public int damage = 40;
     public string bulletdirection = "default";
 

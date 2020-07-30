@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 019398022c4b3244389f5a11ec39b279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 10
   damage: 40
   bulletdirection: default
   rb: {fileID: 7150136142483027201}

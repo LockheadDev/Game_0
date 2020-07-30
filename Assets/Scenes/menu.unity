@@ -2105,7 +2105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1882365084388154794b10916c7922d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  url: https://dataoptout-ui-prd.uca.cloud.unity3d.com/?token=6fe4kor5192v0tjhh4luokpel7mr42rameh9grfl8ehbjqce
+  url: https://unity3d.com/es/legal/privacy-policy
 --- !u!1 &297832845
 GameObject:
   m_ObjectHideFlags: 0

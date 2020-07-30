@@ -11120,7 +11120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 4322733256918406669, guid: 9549c3c7dd6e7ed4fb8f351dc8e9ea2c, type: 3}
-  spawnRate: 8.8
+  spawnRate: 8.6
 --- !u!1 &1630666808
 GameObject:
   m_ObjectHideFlags: 0
